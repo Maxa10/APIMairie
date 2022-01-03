@@ -1,0 +1,26 @@
+{
+  "name": "api_reports_alertes",
+  "version": "1.0.0",
+  "description": "api qui gère les alertes, voiries, travaux, etc..., des citoyens d'une ville",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "test": "standard --fix,"
+  },
+  "author": "Maxime sauvage, Max270899@gmail.com",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cloudinary": "^1.27.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
