@@ -8,7 +8,7 @@ const app = express();
 import connectDb from './config/db.js';
 import reportRoutes from './routes/reportRoutes.js';
 
-const appPort = process.env.APP_PORT || 3500;
+const appPort = process.env.PORT || 3500;
 
 const start = async () => {
 	try {
